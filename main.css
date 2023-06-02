@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1, section .container h2 {
+    font-family: 'Bungee', cursive;
+
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+header{
+    padding: 16px 0;
+    background-color: rgb(53, 164, 208);
+    color: hotpink;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+    
+}
+
+header nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header {
+    font-weight: bolder;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: rgb(197, 230, 219);
+}
+
+
+
+
+.container img{
+    height: 300px;
+    display: flex;
+   
+    
+}
+
+header .container, 
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 18px 0;
+}
+
+section h2 {
+    margin-bottom: 16px 0;
+}
+section p{
+    margin-bottom: 8px;
+}
+section img {
+    margin-right: 32px;
+}
+
+.brand-list img {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0 ;
+}
+
+.brand-list {
+    width: 30%;
+}
+
+
+
+.container li a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+
+.social-links img{
+    height: 24px;
+}
+
+#contact .container {
+    display: block;
+}
+.contact-methods img {
+    display: flex;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: blue;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+
+}
+
+form button:hover{
+    background-color: rgb(81, 81, 148);
+}
+
+input:focus, textarea:focus {
+outline-color: blue;
+}
+
+footer {
+    background-color: rgb(53, 164, 208);
+    color: hotpink;
+    padding: 16px 0;
+}
+
+
