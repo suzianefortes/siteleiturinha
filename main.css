@@ -82,15 +82,22 @@ section img {
 }
 
 .brand-list img {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 24px 0 ;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    margin-bottom: 8px;
 }
 
 .brand-list {
-    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8 px;
+    list-style-type: none;
 }
 
+.brand-list li {
+    text-align: center;
+}
 
 
 .container li a {
